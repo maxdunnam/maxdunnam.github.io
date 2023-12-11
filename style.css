@@ -7,7 +7,7 @@ h1 {
     font-size: 36px;
 }
 
-.menu {
+#menu {
     background-color:rgb(253, 233, 167);
     float: left;
     border: solid 1px;
@@ -15,7 +15,7 @@ h1 {
     font-size: 20px;
 }
 
-.pagetext {
+#pagetext {
     font-size: 18px;
     float: none;
 }
