@@ -34,4 +34,37 @@ h1 {
     height: 75px;
     border: 2px solid black;
     background-color: blue;
+    animation-name: race;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes race {
+    from {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 500px;
+        top: 0px;
+    }
+
+    50% {
+        left: 500px;
+        top: 500px;
+    }
+
+    75% {
+        left: 0px;
+        top:500px;
+    }
+
+    to {
+        left: 0px;
+        top: 0px;
+        width: 10px;
+        height: 10px;
+    }
 }
