@@ -39,31 +39,4 @@ h1 {
     animation-iteration-count: 3;
 }
 
-@keyframes race {
-    from {
-        left: 0px;
-        top: 0px;
-    }
 
-    25% {
-        left: 500px;
-        top: 0px;
-    }
-
-    50% {
-        left: 500px;
-        top: 500px;
-    }
-
-    75% {
-        left: 0px;
-        top:500px;
-    }
-
-    to {
-        left: 0px;
-        top: 0px;
-        width: 10px;
-        height: 10px;
-    }
-}
