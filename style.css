@@ -33,10 +33,4 @@ h1 {
     height: 75px;
     border: 2px solid black;
     background-color: blue;
-    animation-name: race;
-    animation-duration: 6s;
-    animation-timing-function: linear;
-    animation-iteration-count: 3;
 }
-
-
