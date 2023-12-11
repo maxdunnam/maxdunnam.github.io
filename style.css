@@ -47,18 +47,18 @@ h1 {
     }
 
     25% {
-        left: 500px;
+        left: 425px;
         top: 0px;
     }
 
     50% {
-        left: 500px;
-        top: 500px;
+        left: 425px;
+        top: 425px;
     }
 
     75% {
         left: 0px;
-        top:500px;
+        top:425px;
     }
 
     to {
