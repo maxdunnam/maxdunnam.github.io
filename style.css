@@ -49,22 +49,28 @@ h1 {
     25% {
         left: 425px;
         top: 0px;
+        width: 75px;
+        height: 75px;
     }
 
     50% {
         left: 425px;
         top: 425px;
+        width: 75px;
+        height: 75px;
     }
 
     75% {
         left: 0px;
-        top:425px;
+        top: 425px;
+        width: 75px;
+        height: 75px;
     }
 
     to {
         left: 0px;
         top: 0px;
-        width: 10px;
-        height: 10px;
+        width: 25px;
+        height: 25px;
     }
 }
