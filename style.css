@@ -21,7 +21,7 @@ h1 {
 }
 
 #box {
-    position: absolute;
+    position: fixed;
     border: 4px dashed black;
     width: 500px;
     height: 500px;
