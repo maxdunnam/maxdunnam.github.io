@@ -62,15 +62,15 @@ h1 {
 
     75% {
         left: 0px;
-        top: 425px;
-        width: 75px;
-        height: 75px;
+        top: 475px;
+        width: 25px;
+        height: 25px;
     }
 
     to {
         left: 0px;
         top: 0px;
-        width: 25px;
-        height: 25px;
+        width: 75px;
+        height: 75px;
     }
 }
