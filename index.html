@@ -2,15 +2,7 @@
 <html lang="en">
 <head>
 <title>My Website</title>
-<link rel="stylesheet" href="style.css">\
-<script type="text/javascript">
-    function alterPage() {
-        var menu = getElementById("menu");
-        menu.style.color="red";
-        menu.style.fontSize="40px";
-        menu.style.fontWeight="bold";
-    }
-</script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -23,6 +15,15 @@
 <div class="pagetext">
     <p>Not sure what to put on this page, it is mostly just a page to link to the other ones that actually have stuff on them. </p>
     <button onClick="alterPage()">Click here to alter the page.</button>
+
+<script type="text/javascript">
+    function alterPage() {
+        var menu = getElementById("menu");
+        menu.style.color="red";
+        menu.style.fontSize="40px";
+        menu.style.fontWeight="bold";
+    }
+</script>
 </div>
 </body>
 </html>
