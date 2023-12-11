@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
 <title>My Website</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">\
+<script type="text/javascript">
+    function alterPage() {
+        var menu = getElementById("menu");
+    }
+</script>
 </head>
 <body>
 
 <h1>Homepage</h1>
-<div class="menu">
+<div id="menu">
     <a>Home</a> <br>
     <a href="aboutme.html">About Me</a> <br>
     <a href="hobbies.html">My Hobbies</a>
 </div>
-<div class="pagetext">
+<div id="pagetext">
     <p>Not sure what to put on this page, it is mostly just a page to link to the other ones that actually have stuff on them. </p>
+    <button onClick="alterPage()">Click here to alter the page.</button>
 </div>
 </body>
 </html>
