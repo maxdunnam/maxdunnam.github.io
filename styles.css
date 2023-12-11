@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(245, 236, 220);
+}
+
+h1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.menu {
+    background-color:rgb(253, 233, 167);
+    float: left;
+    border: solid 1px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.pagetext {
+    font-size: 18px;
+    float: none;
+}
