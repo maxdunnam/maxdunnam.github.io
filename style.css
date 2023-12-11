@@ -21,7 +21,7 @@ h1 {
 }
 
 #box {
-    position: relative;
+    position: absolute;
     border: 4px dashed black;
     width: 500px;
     height: 500px;
@@ -29,7 +29,7 @@ h1 {
 }
 
 #square {
-    position: absolute;
+    position: relative;
     width: 75px;
     height: 75px;
     border: 2px solid black;
