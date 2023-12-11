@@ -25,6 +25,7 @@ h1 {
     border: 4px dashed black;
     width: 500px;
     height: 500px;
+    margin: 1000px;
 }
 
 #square {
